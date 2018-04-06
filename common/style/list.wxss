@@ -1,0 +1,47 @@
+page {
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+}
+
+.view-list {
+  width: 100%;
+}
+
+.movie-item {
+  width: 48%;
+  margin: 1%;
+  float: left;
+}
+
+.movie-item .poster {
+  width: 100%;
+}
+
+.movie-item .title {
+  font-size: 28rpx;
+  text-align: center;
+  color: #333;
+  margin: 5rpx 0;
+}
+
+.movie-item .title .rate {
+  color: red;
+}
+
+.movie-item .year-type {
+  font-size: 20rpx;
+  text-align: center;
+  color: #888;
+}
+
+.loading {
+  text-align: center;
+  height: 80rpx;
+  padding: 20rpx;
+}
+
+.loading image {
+  height: 100%;
+}
